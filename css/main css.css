@@ -1,0 +1,481 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;        
+    font-family: 'Roboto', sans-serif;                            
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.background {
+   background-color: #ffeaf5;
+	border-color: 1px solid black;
+	width: 700px;
+	height: 620px;
+	margin-left: 574px;
+	margin-bottom:1500px ;
+   z-index: -2;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin: 0em 4em;
+}
+
+nav ul {
+    gap: 3.2em;
+    margin-right:23.0em ;
+}
+
+nav ul li a {
+    font-size: 1.6rem;
+}
+
+nav ul li a, h2, .mhbtn1, .mrbtn, .headfoot1 ul li a, .minfo, .minf, a, .midinfo1 h3, .minf1, .ipdcp, .midinfp, .resultfigurea, .details, .resh, .res, .news1, ul li a, .scall, .callno {
+   color: black;
+}
+
+nav ul li :hover {
+   text-decoration: underline;
+}
+
+.headercta1 {
+    margin-right: 3.1em;
+}
+
+.headerprimary-cta {
+    background-color: #ed017f;
+    color: white;
+    border-radius: .2em;
+    padding: 0.7em 1.8em;
+}
+
+.main1-left-col {
+    margin-top: 85px;
+}
+
+h1 {
+    font-size: 5.0rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+.subhead {
+    font-size: 1.8rem;
+}
+
+
+.cta-btns {
+    margin: 5em 0;
+}
+
+.cta-btns :hover {
+   background-color: #f792c8;
+}
+
+.headercta :hover {
+   background-color: #fc8cc8;
+}
+
+.main1-right-colbtns :hover {
+   text-decoration: underline;
+}
+
+.secondary-cta {
+    background-color: #ffffff;
+    color:  #ed017f; ;
+}
+.primary-cta {
+   background-color: #ed017f;
+   color:  #ffffff;
+}
+
+.primary-cta, .secondary-cta {
+   border-radius: .2em;
+   padding: 0.7em 1.8em;
+   border: 1px solid #ed017f;
+}
+
+.cta-btns, .secondary-cta {
+    gap: 2em;
+}
+
+.main1-right-col, .main-left-col {
+    width:50%;
+}
+
+.main1-right-col {
+    margin-right: 24px;
+    width: 710px;
+    height: 682px;
+}
+
+.lbar {
+    right: -99px;
+    bottom: -390px;
+}
+
+.headcta, .main1-right-col, .backgroundimage, .mainheadbtn, .main1-right-colbtns, .midinfo1, .midinfo1foot, .midinfo2, .subp, .details, .midinfo2foot, .newssection, .container, .main1-left-col     {
+    position: relative;
+}
+
+.headercta1 {
+    bottom: 10px;
+    left: -110px;
+    top: 10px;
+}
+
+.familyimg {
+   right: -97px;
+}
+
+.mbtn {
+    left: 45px;
+    bottom: -70px;
+    z-index: 2;
+    padding-left: 5px;
+}
+
+.main1-right-colbtns .mrbtn, .mainheadbtn .mhbtn1 {
+   padding-left: 60px;
+   box-shadow: 0px 5px 10px rgb(0, 0, 0, .15);
+}
+
+.mhbtn1 {
+    text-align: right;
+    left: 33px;
+}
+
+.mhbtn1, .mrbtn {
+    background-color: #ffffff;
+    font-size: 1.8rem;
+    border-radius: 1.8em;
+    padding: 0.91em 1.5em;
+}
+
+.mrbtn {
+    right: -20px;
+}
+
+.mhbtn1 {
+    bottom: -80px;
+}
+
+.mrbtn {
+    bottom: -170px;
+    right: 5px;
+}
+
+.hbtn {
+    bottom: -160px;
+    left: 545px;
+    z-index: 2;
+}
+
+.callmain {
+   border-right: 1px solid rgb(163, 162, 162);
+   padding-right: 13px;
+}
+
+.scallmain {
+   padding-right: 2px;
+}
+
+.headfoot1 ul li a, .primary-cta, .secondary-cta, .headerprimary-cta, nav ul li a, a, .midinfo1 h3, .minf1, ul li a, .scall, .callno, .mhbtn1, .mrbtn {
+   text-decoration: none ;
+}
+
+.headfoot ul li, .headfoot2 ul, .headfoot1 ul, footer ul, .socials, nav ul {
+   list-style: none;
+}
+
+.headfoot2 ul, .headfoot1 ul {
+   padding-left: 18px;
+   gap: 0.5em;
+   align-items: center;
+}
+
+.headfoot {
+   bottom: 70px;
+   left: -16px;
+}
+
+.minfo {
+    font-weight: lighter;
+}
+
+.arraycard1, .arraycard2, .arraycard3, .arraycard4, .arraycard5, .arraycard6, .arraycard7, .arraycard8 {
+    display: inline-block;
+}
+
+.minf1 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    text-align: start;
+}
+
+.arraygroup {
+    grid-template-columns: repeat(8,auto);
+    grid-gap: 5.5em;
+    margin-top: 100px;
+    left: -40px;
+    z-index: 0;
+}
+
+.arraygroup, .resultfigures  {
+   display: grid;
+}
+
+.midf1foot {
+    padding-top: 45px;
+ }
+
+ .partners {
+    gap: 16.0em;
+    justify-content: end;
+    margin-top: 90px;
+    padding-bottom: 100px;
+    margin-right: 70px;
+ }
+
+ .midinfo1foot {
+    margin-top: 600px;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+ }
+
+ .lbar2 {
+    left: 580px;
+    bottom: 5px;
+    z-index: 2;
+ }
+
+ .midinfo2 {
+    margin-top: 120px ;
+    gap: 5.0em;
+    margin-left: 0px;
+ }
+
+ .atagsvg {
+   left: -75px;
+   top: -120px;
+ }
+
+ .ipdcp {
+    text-align: start;
+ }
+
+ .subp1 {
+    color: #ed017f;
+    margin-left: 2px;
+ }
+
+ .midinfotext {
+   text-align: left;
+   margin-left: 500px;
+   line-height: 1.5;
+ }
+
+ .subparrow {
+    right: 377px;
+    top: -1px;
+ }
+
+ .subparrow :hover {
+   transform: translateX(10px);
+ }
+
+ .subp :hover {
+   text-decoration: underline;
+ }
+
+ .midinf2 {
+   padding-top: 70px;
+ }
+
+ .midinfp,.resultfigurea, .news1, footer, .subp1, .ipdcp, .minfo, .minf, h2   {
+    font-size: 1.9rem;
+ }
+
+.details {
+    font-size: 2.0rem;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 1.4;
+ }
+
+ .carrow1 {
+    right: 1019px;
+ }
+
+ .carrow1, .carrow2, .carrow3, .carrow4 {
+   bottom: 83px;
+ }
+
+ .carrow2 {
+    right: 706px;
+ }
+
+ .carrow3 {
+    right: 396px;
+ }
+
+ .carrow4 {
+    right: 89px ;
+ }
+
+ .carrow1 :hover {
+   transform: translateX(10px);
+ }
+ .carrow2 :hover {
+   transform: translateX(10px);
+ }
+ .carrow3 :hover {
+   transform: translateX(10px);
+ }
+ .carrow4 :hover {
+   transform: translateX(10px);
+ }
+  .container :hover {
+   text-decoration: underline;
+  }
+
+  .primaryfooter ul li :hover {
+   text-decoration: underline;
+  }
+
+ .midinfo2foot {
+    margin-top: 52px;
+ }
+
+ .midinfo2foot, .newssection {
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+ }
+
+ 
+ .container {
+    gap: 2.8em;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 80px;
+ }
+
+ .resulthead, .resultfigurea, .news, .news1, .midinf2, .midinfp, .midf1foot, .midinfo1 h3, .minfo, .mrbtn, .primary-cta, .secondary-cta  {
+   text-align: center;
+ }
+
+ .resulthead {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+ }
+
+ .resulthead, .resh, .resh1, .news, .midinf2, .midinfotitle, .midinfo1 h3 {
+   font-size: 2.5rem;
+ }
+
+ .resultfigurea {
+    line-height: 1.3;
+ }
+
+ .result {
+    margin-top: 150px;
+ }
+
+ .resh1 {
+    color: #ed017f;
+ }
+
+ .res, .headfoot1 ul li, .primary-cta, .secondary-cta, .headerprimary-cta {
+    font-size: 1.5rem;
+ }
+ 
+ .resultfigures {
+   grid-template-columns: repeat(4,auto);
+   grid-gap: 5.5em;
+   margin-top: 120px;
+ }
+ .resultfigures1 {
+    margin-top: 20px;
+ }
+
+ .newssection, .midinfo2foot, .midinfo1foot  {
+   background-color: #fef9fc;
+ }
+ 
+ .newssection {
+    padding-top: 45px;
+    padding-bottom: 85px;
+    margin-top: 65px;
+ }
+
+
+.container1 input, .carrow1, .carrow2, .carrow3, .carrow4, .subparrow, .atagsvg, .lbar2, .lbar, .arraygroup, .headfoot, .hbtn, .mrbtn, .mhbtn1, .mbtn, .familyimg, .headercta1, .background   {
+   position: absolute;
+}
+
+ .container1 input {
+   color: #ffffff;
+   background-color: #ed017f;
+   right: 510px;
+ }
+
+.news, .ftop, .resh1, .resh, .resulthead, .midinf2, .midinf, .midinfotitle, .subp1, .minf, .headfoot1 ul li, .mhbtn1, .mrbtn, .primary-cta, .secondary-cta, .headerprimary-cta   {
+   font-weight: bold;
+}
+
+ footer{
+    margin-top: 50px;
+    padding-bottom: 30px;
+ }
+
+ .primaryfooter, .socials, footer, .container, .secondaryfooter ul, .midinfo2, .partners, .headfoot, .headfoot2 ul, .headfoot1 ul, .mainheadbtn, .cta-btns, .secondary-cta, .main1, .headercta, nav ul, header {
+    display: flex;
+ }
+
+  .ftop {
+    margin-bottom: 15px;
+  }
+
+  .socials {
+    margin-left: 33px;
+    margin-top: 25px ;
+  }
+
+  .social1 {
+    margin-right: 15px;
+  }
+
+ .callno {
+    margin-left: 10px;
+    margin-top: 3px;
+ }
+
+.footer-col4 {
+    margin-right: 100px;
+}
+
+ 
+
+ 
+  
+  

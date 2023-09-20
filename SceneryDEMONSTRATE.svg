@@ -1,0 +1,20 @@
+<svg width="40" height="42" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_202_40)">
+<path d="M22.4791 13.875C21.202 13.875 20.1666 12.8397 20.1666 11.5625C20.1666 10.2853 21.202 9.25 22.4791 9.25C23.7563 9.25 24.7916 10.2853 24.7916 11.5625C24.7902 12.8391 23.7557 13.8736 22.4791 13.875Z" fill="#FCE0EF"/>
+<path d="M30.9583 3.08331H9.375C6.82377 3.09076 4.75745 5.15709 4.75 7.70831V21.3675L10.7317 15.3858C12.5624 13.6437 15.4377 13.6437 17.2683 15.3858L21.6951 19.8366L23.0633 18.4684C24.8724 16.6698 27.7943 16.6698 29.6033 18.4684L35.5833 24.4483V7.70831C35.5759 5.15709 33.5096 3.09076 30.9583 3.08331ZM22.4792 13.875C21.202 13.875 20.1667 12.8396 20.1667 11.5625C20.1667 10.2853 21.202 9.24998 22.4792 9.24998C23.7563 9.24998 24.7917 10.2853 24.7917 11.5625C24.7903 12.8391 23.7557 13.8736 22.4792 13.875Z" fill="#F899CC"/>
+<path d="M17.2683 15.3858C15.4377 13.6438 12.5623 13.6438 10.7317 15.3858L4.75 21.3675V29.2917C4.75746 31.8429 6.82379 33.9092 9.375 33.9167H30.9583C32.215 33.9162 33.4172 33.4041 34.2883 32.4983L17.2683 15.3858Z" fill="#ED017F"/>
+<path d="M35.5833 24.4484L29.6034 18.4684C27.7943 16.6699 24.8724 16.6699 23.0633 18.4684L21.6951 19.8366L34.2816 32.4915C35.1174 31.6362 35.5847 30.4875 35.5833 29.2917V24.4484Z" fill="#FCE0EF"/>
+</g>
+<defs>
+<filter id="filter0_d_202_40" x="-2.33337" y="0" width="45" height="45" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_202_40"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_202_40" result="shape"/>
+</filter>
+</defs>
+</svg>
